@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "brand": "K A W S  X  U N I Q L O",
+      "productName": "UT Graphic Sweatshirt 'White'",
+      "description": "This KAWS x UNIQLO UT Graphic Sweatshirt 'White' features a depiction of KAWS' cherished COMPANION character, depicting a father and son. On the back, you'll discover the iconic XX design that is synonymous with KAWS' artwork.",
+      "price": 65,
+      "discount": 20,
+      "images": [
+        {
+          "url": "https://www.kickgame.co.uk/cdn/shop/products/kaws-1.png?v=1694529066&width=1024"
+        },
+        {
+          "url": "https://www.kickgame.co.uk/cdn/shop/products/kaws-2.png?v=1694529069&width=1024"
+        }
+      ]
+    },
+    {
+      "brand": "K A W S  X  U N I Q L O",
+      "productName": "UT Graphic Sweatshirt 'Black'",
+      "description": "This KAWS x UNIQLO UT Graphic Sweatshirt 'White' features a depiction of KAWS' cherished COMPANION character, depicting a father and son. On the back, you'll discover the iconic XX design that is synonymous with KAWS' artwork.",
+      "price": 65,
+      "discount": 20,
+      "images": [
+        {
+          "url": "https://www.kickgame.co.uk/cdn/shop/products/crewn-neck-kaws-black.png?v=1694206687&width=1024"
+        }
+      ]
+    },
+    {
+      "brand": "N I K E  X  N O C T A",
+      "productName": "Basketball T-shirt",
+      "description": "The Nike x Nocta Basketball T shirt Black is one of the latest collaborations between the shoe manufacturing giant Nike and men’s fashion designers and manufacturers NOCTA.",
+      "price": 250,
+      "discount": 20,
+      "images": [
+        {
+          "url": "https://www.kickgame.co.uk/cdn/shop/products/Nike-x-NOCTA-Basketball-T-shirt-Black_1.png?v=1676993119&width=1024"
+        },
+        {
+          "url": "https://www.kickgame.co.uk/cdn/shop/products/Nike-x-NOCTA-Basketball-T-shirt-Black_2.jpg?v=1676993119&width=1024"
+        }
+      ]
+    }
+  ]
+}

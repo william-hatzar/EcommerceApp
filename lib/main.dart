@@ -1,5 +1,6 @@
+import 'package:ecommerce_app/SplashScreen.dart';
 import "package:flutter/material.dart";
-import 'ecommerce_view.dart';
+import 'main_list.dart';
 
 void main() => runApp(const Root());
 
@@ -9,8 +10,9 @@ class Root extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: EccommerceView(),
+      home: SplashScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
 }
+

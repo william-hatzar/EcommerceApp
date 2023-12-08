@@ -1,3 +1,4 @@
+import 'package:ecommerce_app/main_list.dart';
 import 'package:flutter/material.dart';
 
 class DrawerIcons extends StatelessWidget {
@@ -18,26 +19,18 @@ class DrawerIcons extends StatelessWidget {
             },
           ),
           ListTile(
-            title: Text('Collections', style: TextStyle(fontFamily: "Kumbh Sans", fontWeight: FontWeight.bold, fontSize:20)),
-            onTap: () {
-              // Handle Collections tap
-              Navigator.pop(context); // Close the drawer
-              // Add code to navigate to Collections
-            },
-          ),
-          ListTile(
-            title: Text('Men', style: TextStyle(fontFamily: "Kumbh Sans", fontWeight: FontWeight.bold, fontSize:20),),
+            title: Text('Shoes', style: TextStyle(fontFamily: "Kumbh Sans", fontWeight: FontWeight.bold, fontSize:20),),
             onTap: () {
               // Handle Men tap
-              Navigator.pop(context); // Close the drawer
+              Navigator.push(context, MaterialPageRoute(builder: (_) => const ProductListView(fileName: "products")));
               // Add code to navigate to Men
             },
           ),
           ListTile(
-            title: Text('Women', style: TextStyle(fontFamily: "Kumbh Sans", fontWeight: FontWeight.w400, fontSize:20)),
+            title: Text('Clothing', style: TextStyle(fontFamily: "Kumbh Sans", fontWeight: FontWeight.bold, fontSize:20)),
             onTap: () {
               // Handle Women tap
-              Navigator.pop(context); // Close the drawer
+              Navigator.push(context, MaterialPageRoute(builder: (_) => const ProductListView(fileName: "clothing"))); // Close the drawer
               // Add code to navigate to Women
             },
           ),
